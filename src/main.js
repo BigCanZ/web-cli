@@ -2,7 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+// 插件
+import '@/plugins/utils'
+// 全局样式，重置样式及原子类样式引入
+import 'css/index.scss'
 Vue.config.productionTip = false
 
 new Vue({
